@@ -1,0 +1,10 @@
+version: '3'
+services:
+  dns-test-app:
+    build: .
+    volumes:
+      - /etc/resolv.conf:/tmp/resolv.conf
+    ports:
+      - "5000:5000"
+    restart: always
+
