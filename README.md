@@ -31,7 +31,7 @@ Result
 
 ### DNS Query Time
 ```
-curl -s "http://localhost:5000/dns_test?server=10.199.68.75&url=cisco.com"
+curl -s "http://localhost:5000/dns_test?server=8.8.8.8&url=cisco.com"
 ```
 
 Result
